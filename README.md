@@ -11,3 +11,6 @@ Type python stock.py stock and watch it run
 
 
 Change the time and company to your liking and have fun
+
+
+Python 3.7+
