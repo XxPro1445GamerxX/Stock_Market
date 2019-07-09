@@ -9,9 +9,9 @@ try:
         os.system('color 71')
         count = 0
         while True:
-            def amazonS():
+            def the_stockC():
                 global count
-                company = 'amzn' #Change company STOCK AABBREVIATION HERE currently amazon
+                company = 'amzn' #Change company STOCK AABBREVIATION HERE currently Amazon
                 current_stock = si.get_live_price(company)
                 time.sleep(20) # Change time here if you want a schedule based code import schedule and use its code
                 current_stocks = si.get_live_price(company)
@@ -19,16 +19,16 @@ try:
                 if current_stock < current_stocks:
                     diff = float(current_stock) - float(current_stocks)
                     os.system('cls')
-                    print('Amazons stock went down by: ', diff, '$\'s', 'COUNT: ', count, 'PRESS CTRL + C to exit')
+                    print('Your stock went down by: ', diff, '$\'s', 'COUNT: ', count, 'PRESS CTRL + C to exit')
                     
                 elif current_stock > current_stocks:
                     diff = float(current_stock) - float(current_stocks)
                     os.system('cls')
-                    print('Amazons stock went up by: ', diff, '$\'s', 'COUNT: ', count, 'PRESS CTRL + C to exit')
+                    print('Your stock went up by: ', diff, '$\'s', 'COUNT: ', count, 'PRESS CTRL + C to exit')
                 else:
                     os.system('cls')
                     print('Nothing yet!!', 'COUNT: ', count, 'PRESS CTRL + C to exit')
-            amazonS()
+            the_stockC()
     else:
          print('In order to use the script \nOpen script in cmd and type \nPATH:', os.path.dirname(os.path.abspath(__file__)), '\npython stock.py stock')
          input()
