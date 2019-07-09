@@ -7,7 +7,10 @@ How to use:
 
 Open CMD and go to folder directory
 
-Type python stock.py stock and watch it run
+Type 
+
+python stock.py {Name of Company}
+
 
 
 Change the time and company to your liking and have fun
