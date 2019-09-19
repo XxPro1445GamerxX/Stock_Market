@@ -1,0 +1,7 @@
+pygame
+yahoo_fin
+pynput
+matplotlib
+numpy
+threading
+requests_html
